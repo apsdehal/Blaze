@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'torrent/blaze/version'
+require 'blaze/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "torrent-blaze"
-  spec.version       = Torrent::Blaze::VERSION
+  spec.version       = Blaze::VERSION
   spec.authors       = ["Amanpreet Singh"]
   spec.email         = ["apsdehal@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Download torrents directly from command line}
+  spec.description   = %q{Blaze is a command line application that downloads torrent directly from magnet links}
   spec.homepage      = ""
   spec.license       = "MIT"
 
